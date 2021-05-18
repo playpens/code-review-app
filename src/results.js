@@ -6,7 +6,7 @@ class Results extends React.Component {
   render() {
     return (
       <>
-      <h2>Results</h2>
+      <h2>All the output from an API</h2>
       <ul>
         {
           this.props.list.map( (item,idx) =>
